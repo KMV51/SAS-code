@@ -1,0 +1,49 @@
+ /* Chapter 14, Problem 25 */
+
+LIBNAME cw '/home/u64143124/BIST0551';
+
+proc contents data=cw.ch05q17; title "Contents: ch05q17"; run;
+
+proc reg data=cw.ch05q17;
+    model SALES = ADV;
+run;
+
+proc reg data=cw.ch05q17;
+    model SALES = ADV / influence r;
+    output out=RegOut rstudent=Jackknife_Residual;
+run;
+
+proc means data=RegOut max;
+    var Jackknife_Residual;
+run;
+
+proc sgplot data=RegOut;
+    scatter x=ADV y=Jackknife_Residual;
+    refline 0 / axis=y lineattrs=(color=red);
+    title "Scatter Plot of Jackknife Residuals vs Advertising";
+run;
+
+ /* Chapter 14, Problem 25 */
+
+LIBNAME cw '/home/u64143124/BIST0551';
+
+proc contents data=cw.ch05q17; title "Contents: ch05q17"; run;
+
+proc reg data=cw.ch05q17;
+    model SALES = ADV;
+run;
+
+proc reg data=cw.ch05q17;
+    model SALES = ADV / influence r;
+    output out=RegOut rstudent=Jackknife_Residual;
+run;
+
+proc means data=RegOut max;
+    var Jackknife_Residual;
+run;
+
+proc sgplot data=RegOut;
+    scatter x=ADV y=Jackknife_Residual;
+    refline 0 / axis=y lineattrs=(color=red);
+    title "Scatter Plot of Jackknife Residuals vs Advertising";
+run;
