@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_classwork1_reg",
+  "source_file": "Classwork1.sas",
+  "source_blob_sha": "32a22d18a5f75c8ec8f7bbd9d6e7e212eeee55fe",
+  "source_commit": "591362004f146751bf3d29ec0fb6f734bc7f17cb",
+  "notes": "Tar vs BaP association: a SET/copy DATA step, PROC SGPLOT scatter, and PROC REG simple linear model bap=tar. Author's analysis is unchanged; the permanent cw library store is replaced by a WORK copy (cw_c) and the class dataset c by a 10-row sample with the same tar/bap columns."
+}
