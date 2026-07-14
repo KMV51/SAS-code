@@ -1,0 +1,396 @@
+                                    Adjusted Odds Ratios for SMOKDAY2 and Covariates
+
+                                     
+---------------------------  --------
+Number of Observations Read        48
+Number of Observations Used        48
+
+            Response Profile            
+ Probability modeled is CHCKDNY2='Yes'  
+
+Ordered Value  CHCKDNY2  Total Frequency
+-------------  --------  ---------------
+            1  No                     25
+            2  Yes                    23
+
+                    Class Level Information                    
+
+Class       Levels  Values                                     
+--------  --------  -------------------------------------------
+SMOKDAY2         3  Every day Not at all Some days             
+AGEGROUP         4  Age 18 - 44 Age 45 - 54 Age 55 - 64 Age 65+
+EXERANY2         2  No Yes                                     
+VETERAN3         2  No Yes                                     
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: CHCKDNY2
+
+Criterion     Value
+---------  --------
+AIC          70.041
+-2 Log L     50.041
+SC           88.753
+
+            Analysis of Maximum Likelihood Estimates            
+
+Parameter  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+---------  --------  --------------  ---------------  ----------
+Intercept    0.3705          1.4360           0.0666      0.7964
+SMOKDAY2     0.4693          0.9421           0.2482      0.6184
+SMOKDAY2     0.0533          0.9650           0.0031      0.9560
+AGEGROUP     1.0401          0.9741           1.1400      0.2857
+AGEGROUP    -1.6128          1.2138           1.7656      0.1839
+AGEGROUP    -1.8653          1.1735           2.5263      0.1120
+EXERANY2    -0.5978          0.8471           0.4980      0.4804
+VETERAN3     0.2701          0.8597           0.0987      0.7534
+ALC_DAY      0.0871          0.2653           0.1077      0.7427
+MENTHLTH    -0.0226          0.0404           0.3142      0.5751
+
+                     Odds Ratio Estimates                     
+
+Effect    Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+--------  --------------  -----------------  -----------------
+SMOKDAY2           1.599              0.252             10.133
+SMOKDAY2           1.055              0.159              6.992
+AGEGROUP           2.829              0.419             19.094
+AGEGROUP           0.199              0.018              2.151
+AGEGROUP           0.155              0.016              1.545
+EXERANY2           0.550              0.105              2.894
+VETERAN3           1.310              0.243              7.064
+ALC_DAY            1.091              0.649              1.835
+MENTHLTH           0.978              0.903              1.058
+
+                                    Adjusted Odds Ratios for SMOKDAY2 and Covariates
+
+                              The NPAR1WAY Procedure                              
+                Wilcoxon Scores (Rank Sums) for Variable AVE_DRINK                
+
+CHCKDNY2         N  Sum of Scores  Expected Under H0  Std Dev Under H0  Mean Score
+--------  --------  -------------  -----------------  ----------------  ----------
+No              25       681.0000           612.5000           48.4400     27.2400
+Yes             23       495.0000           563.5000           48.4400     21.5200
+
+   Kruskal-Wallis Test   
+
+Statistic           Value
+---------------  --------
+Chi-Square         1.9995
+DF                      1
+Pr > Chi-Square    0.1574
+P Value            0.1574
+
+  Wilcoxon Two-Sample Test  
+
+Statistic              Value
+------------------  --------
+S                   681.0000
+Expected Under H0   612.5000
+Std Dev Under H0     48.4435
+Z                     1.4140
+Two-Sided Pr > |Z|    0.1574
+P Value               0.1574
+
+                                    Adjusted Odds Ratios for SMOKDAY2 and Covariates
+
+                        CHCKDNY2=No
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  AVE_DRINK
+
+                                                        Moments
+
+N                                 25    Sum Weights                       25
+Mean                        3.448000    Sum Observations           86.200000
+Std Deviation               1.803728    Variance                    3.253433
+Skewness                   -0.204694    Kurtosis                   -1.328769
+Uncorrected SS            375.300000    Corrected SS               78.082400
+Coeff Variation            52.312286    Std Error Mean              0.360746
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      3.448000  Std Deviation  1.803728
+Median    3.700000  Variance       3.253433
+Mode      1.800000  Range          5.700000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.300000
+1%          0.300000
+5%          0.700000
+10%         0.900000
+25% Q1      1.800000
+50% Median  3.700000
+75% Q3      4.800000
+90%         5.800000
+95%         5.900000
+99%         6.000000
+100% Max    6.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.300000  Value     5.300000
+Value     0.700000  Value     5.600000
+Value     0.900000  Value     5.800000
+Value     1.300000  Value     5.900000
+Value     1.600000  Value     6.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         9.557984139  0.000000001
+Sign                     12.5  0.00000006
+Signed Rank               325  0.0000123
+
+
+                        CHCKDNY2=Yes
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  AVE_DRINK
+
+                                                        Moments
+
+N                                 23    Sum Weights                       23
+Mean                        2.713043    Sum Observations           62.400000
+Std Deviation               1.551042    Variance                    2.405731
+Skewness                    0.502586    Kurtosis                   -0.322585
+Uncorrected SS            222.220000    Corrected SS               52.926087
+Coeff Variation            57.169817    Std Error Mean              0.323415
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      2.713043  Std Deviation  1.551042
+Median    2.600000  Variance       2.405731
+Mode      1.100000  Range          5.500000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.400000
+1%          0.400000
+5%          0.500000
+10%         1.100000
+25% Q1      1.300000
+50% Median  2.600000
+75% Q3      3.800000
+90%         4.900000
+95%         5.800000
+99%         5.900000
+100% Max    5.900000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.400000  Value     3.900000
+Value     0.500000  Value     4.100000
+Value     1.100000  Value     4.900000
+Value     1.100000  Value     5.800000
+Value     1.200000  Value     5.900000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         8.388747436  0.000000027
+Sign                     11.5  0.000000238
+Signed Rank               276  0.000027033
+
+                                        Chi-square Test for EXERANY2 by CHCKDNY2
+
+                                                   The FREQ Procedure
+
+Table of CHCKDNY2 by EXERANY2
+
+CHCKDNY2 |        No |       Yes |      Total
+---------+-----------+-----------+-----------
+No       |        11 |        14 |         25
+         |     22.92 |     29.17 |      52.08
+         |     12.50 |     12.50 |           
+         |     44.00 |     56.00 |     100.00
+         |     45.83 |     58.33 |      52.08
+---------+-----------+-----------+-----------
+Yes      |        13 |        10 |         23
+         |     27.08 |     20.83 |      47.92
+         |     11.50 |     11.50 |           
+         |     56.52 |     43.48 |     100.00
+         |     54.17 |     41.67 |      47.92
+---------+-----------+-----------+-----------
+Total    |        24 |        24 |         48
+
+Statistics for Table of CHCKDNY2 by EXERANY2
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                1 0.7513       0.3861
+Likelihood Ratio Chi-Square               1 0.7533       0.3854
+Fisher's Exact Test                                      0.5571
+
+Phi Coefficient                      0.1251
+Contingency Coefficient              0.1241
+Cramer's V                           0.1251
+
+                                        Chi-square Test for AGEGROUP by CHCKDNY2
+
+                                                   The FREQ Procedure
+
+Table of CHCKDNY2 by AGEGROUP
+
+CHCKDNY2 |Age 18 - 44 |Age 45 - 54 |Age 55 - 64 |    Age 65+ |       Total
+---------+------------+------------+------------+------------+------------
+No       |          4 |          4 |          8 |          9 |          25
+         |       8.33 |       8.33 |      16.67 |      18.75 |       52.08
+         |       9.38 |       4.69 |       5.21 |       5.73 |            
+         |      16.00 |      16.00 |      32.00 |      36.00 |      100.00
+         |      22.22 |      44.44 |      80.00 |      81.82 |       52.08
+---------+------------+------------+------------+------------+------------
+Yes      |         14 |          5 |          2 |          2 |          23
+         |      29.17 |      10.42 |       4.17 |       4.17 |       47.92
+         |       8.62 |       4.31 |       4.79 |       5.27 |            
+         |      60.87 |      21.74 |       8.70 |       8.70 |      100.00
+         |      77.78 |      55.56 |      20.00 |      18.18 |       47.92
+---------+------------+------------+------------+------------+------------
+Total    |         18 |          9 |         10 |         11 |          48
+
+Statistics for Table of CHCKDNY2 by AGEGROUP
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                3 13.6616       0.0034
+Likelihood Ratio Chi-Square               3 14.5849       0.0022
+
+Cramer's V                           0.5335
+Contingency Coefficient              0.4707
+
+WARNING: 38% of the cells have expected counts less than 5. Chi-Square may not be a valid test.
+
+                                        Simple Logistic Regression for AVE_DRINK
+
+                                     
+---------------------------  --------
+Number of Observations Read        48
+Number of Observations Used        48
+
+            Response Profile            
+ Probability modeled is CHCKDNY2='Yes'  
+
+Ordered Value  CHCKDNY2  Total Frequency
+-------------  --------  ---------------
+            1  No                     25
+            2  Yes                    23
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: CHCKDNY2
+
+Criterion     Value
+---------  --------
+AIC          68.164
+-2 Log L     64.164
+SC           71.906
+
+            Analysis of Maximum Likelihood Estimates            
+
+Parameter  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+---------  --------  --------------  ---------------  ----------
+Intercept    0.7312          0.6211           1.3856      0.2392
+AVE_DRINK   -0.2648          0.1788           2.1920      0.1387
+
+                     Odds Ratio Estimates                      
+
+Effect     Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+---------  --------------  -----------------  -----------------
+AVE_DRINK           0.767              0.540              1.090
+
+                                                   Stepwise selection
+
+                                     
+---------------------------  --------
+Number of Observations Read        48
+Number of Observations Used        48
+
+            Response Profile            
+ Probability modeled is CHCKDNY2='Yes'  
+
+Ordered Value  CHCKDNY2  Total Frequency
+-------------  --------  ---------------
+            1  No                     25
+            2  Yes                    23
+
+                    Class Level Information                    
+
+Class       Levels  Values                                     
+--------  --------  -------------------------------------------
+VETERAN3         2  No Yes                                     
+AGEGROUP         4  Age 18 - 44 Age 45 - 54 Age 55 - 64 Age 65+
+EXERANY2         2  No Yes                                     
+SMOKDAY2         3  Every day Not at all Some days             
+
+                                             
+---------------------------------------------
+Convergence criterion (GCONV=1E-8) satisfied.
+
+The LOGISTIC Procedure
+Response Variable: CHCKDNY2
+
+Criterion     Value
+---------  --------
+AIC          59.874
+-2 Log L     51.874
+SC           67.359
+
+            Analysis of Maximum Likelihood Estimates            
+
+Parameter  Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq
+---------  --------  --------------  ---------------  ----------
+Intercept    0.2231          0.6708           0.1107      0.7394
+AGEGROUP     1.0296          0.8783           1.3742      0.2411
+AGEGROUP    -1.6094          1.0368           2.4096      0.1206
+AGEGROUP    -1.7272          1.0301           2.8115      0.0936
+
+                     Odds Ratio Estimates                     
+
+Effect    Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+--------  --------------  -----------------  -----------------
+AGEGROUP           2.800              0.501             15.659
+AGEGROUP           0.200              0.026              1.526
+AGEGROUP           0.178              0.024              1.339
+
+     Summary of Stepwise Selection      
+
+    Step  Effect    Variable  Pr > ChiSq
+--------  --------  --------  ----------
+       1  Entered   AGEGROUP      0.0936
+
+Variables Selected
+
+Variable
+--------
+AGEGROUP
+

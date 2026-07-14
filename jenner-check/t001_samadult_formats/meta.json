@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_samadult_formats",
+  "source_file": "SAMADULT.sas",
+  "source_blob_sha": "1a98cb7400335cdfae9aa04f609b161b60df117f",
+  "source_commit": "591362004f146751bf3d29ec0fb6f734bc7f17cb",
+  "notes": "NHIS 2018 SAMADULT import program. Extracted the author's PROC FORMAT block (hundreds of VALUE definitions) verbatim; redirected LIBRARY=LIBRARY to the WORK library (their C:\\NHIS2018 permanent store is not present) and added a small DATA _null_ that PUTs two values to confirm the compiled formats apply as written."
+}

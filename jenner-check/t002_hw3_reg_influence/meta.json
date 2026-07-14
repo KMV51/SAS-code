@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_hw3_reg_influence",
+  "source_file": "Homework 3",
+  "source_blob_sha": "8ee9573622bc968b443a4fdcd6e2255abb01a6dd",
+  "source_commit": "591362004f146751bf3d29ec0fb6f734bc7f17cb",
+  "notes": "Chapter 14 Problem 25: PROC REG of SALES on ADV with /influence r diagnostics, output rstudent=Jackknife_Residual, PROC MEANS max, and an SGPLOT of jackknife residuals. Author's regression code is unchanged; the external cw.ch05q17 (BIST0551 library) is replaced by a small 12-row WORK sample with the same ADV/SALES columns."
+}

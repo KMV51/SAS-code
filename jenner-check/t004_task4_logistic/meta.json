@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_task4_logistic",
+  "source_file": "Task4Project.sas",
+  "source_blob_sha": "661239a4238108b5cadcceaaf3e0079b903eda31",
+  "source_commit": "591362004f146751bf3d29ec0fb6f734bc7f17cb",
+  "notes": "BRFSS kidney-disease project: adjusted PROC LOGISTIC with class ref levels + ODDSRATIO, PROC NPAR1WAY Wilcoxon, PROC UNIVARIATE quantiles, PROC FREQ chisq, simple logistic, and a stepwise-selection logistic model. Author's analysis kept intact; the external p.pf25 (BIST0551 Project library, with fmtsearch) is replaced by a seeded 48-row DSD sample whose character class variables carry exactly the reference levels the models expect."
+}

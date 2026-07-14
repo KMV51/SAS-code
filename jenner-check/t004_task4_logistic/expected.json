@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-14T13:52:37.771216Z",
+  "_captured_run_id": "r_358f1561f7db4781859f545bf475e2c3",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote pf25 (48 rows, 10 columns).",
+    "NOTE: PROC LOGISTIC ODS Graphics generated.",
+    "NOTE: PROC NPAR1WAY data=pf25",
+    "NOTE: PROC FREQ statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

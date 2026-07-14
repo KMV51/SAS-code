@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-14T13:47:27.168556Z",
+  "_captured_run_id": "r_d286dca975024ee4b16947a84538d5b8",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: FORMAT $GROUPC defined (1 ranges).",
+    "NOTE: FORMAT SAP001X defined (7 ranges).",
+    "NOTE: FORMAT SAP739X defined (7 ranges).",
+    "CHECK SAP001X 30 = 30 Sample Adult",
+    "CHECK SAP004X 1  = 1 Quarter 1"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,110 @@
+                                                   Contents: ch05q17
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: ch05q17
+Observations:  12
+Variables:     2
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  ADV        Num      8          
+  2  SALES      Num      8          
+
+-------------------------------------------------------------------------------
+
+                                                   Contents: ch05q17
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                               Dependent Variable: SALES                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1       641.59727    641.59727   5614.61    <.0001
+Error                  10         1.14273      0.11427                    
+Corrected Total        11       642.74000                                 
+
+Root MSE           0.33804    R-Square            0.9982
+Dependent Mean      21.90000    Adj R-Sq            0.9980
+Coeff Var          1.54357
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1   6.01364         0.23339     25.77    <.0001
+ADV               1   4.23636         0.05654     74.93    <.0001
+
+                                                   Contents: ch05q17
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                               Dependent Variable: SALES                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1       641.59727    641.59727   5614.61    <.0001
+Error                  10         1.14273      0.11427                    
+Corrected Total        11       642.74000                                 
+
+Root MSE           0.33804    R-Square            0.9982
+Dependent Mean      21.90000    Adj R-Sq            0.9980
+Coeff Var          1.54357
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1   6.01364         0.23339     25.77    <.0001
+ADV               1   4.23636         0.05654     74.93    <.0001
+
+             Output Statistics              
+
+     Obs  Dep Var SALES  Predicted  Residual
+--------  -------------  ---------  --------
+       1        10.2000    10.2500   -0.0500
+       2        12.8000    12.3682    0.4318
+       3        14.1000    14.4864   -0.3864
+       4        16.9000    16.6045    0.2955
+       5        18.4000    18.7227   -0.3227
+       6        21.0000    20.8409    0.1591
+       7        22.7000    22.9591   -0.2591
+       8        25.3000    25.0773    0.2227
+       9        26.8000    27.1955   -0.3955
+      10        29.6000    29.3136    0.2864
+      11        31.1000    31.4318   -0.3318
+      12        33.9000    33.5500    0.3500
+
+                Output Statistics                 
+
+     Obs  RStudent    DFFITS  Cook's D  Hat Diag H
+--------  --------  --------  --------  ----------
+       1   -0.1674   -0.1082  0.006487      0.2949
+       2    1.5492    0.8346  0.305514      0.2249
+       3   -1.2956   -0.5843  0.159844      0.1690
+       4    0.9290    0.3544  0.063674      0.1270
+       5   -1.0065   -0.3337  0.055622      0.0991
+       6    0.4725    0.1441  0.011256      0.0851
+       7   -0.7858   -0.2396  0.029854      0.0851
+       8    0.6750    0.2238  0.026492      0.0991
+       9   -1.2935   -0.4935  0.114070      0.1270
+      10    0.9223    0.4159  0.087809      0.1690
+      11   -1.1303   -0.6089  0.180397      0.2249
+      12    1.2703    0.8214  0.317878      0.2949
+
+                                                   Contents: ch05q17
+
+                                                  The MEANS Procedure
+
+ Variable            Label                               Maximum
+ ---------------------------------------------------------------
+ JACKKNIFE_RESIDUAL  Studentized Deleted Residual      1.5492350
+ ---------------------------------------------------------------
+
+                                                   Contents: ch05q17
+
